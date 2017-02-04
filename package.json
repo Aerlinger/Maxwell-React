@@ -2,13 +2,15 @@
   "name": "maxwell-react",
   "version": "0.0.0",
   "description": "Maxwell React testing",
-  "main": "index.js",
+  "main": "app/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "pug": "^2.0.0-beta10",
     "react": "^15.4.2"
   },
   "devDependencies": {
@@ -17,4 +19,3 @@
     "webpack": "^2.2.1"
   }
 }
-
